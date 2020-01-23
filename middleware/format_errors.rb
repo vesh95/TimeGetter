@@ -6,13 +6,9 @@ class FormatErrors
   end
 
   def call(env)
-    formats = parse(env["QUERY_STRING"])
+    formats = FormatParams.parse(env["QUERY_STRING"])
     errors = format_errors(formats)
     errors.empty? ? @app.call(env) : falure(errors)
-  end
-
-  def parse(query)
-    query.split('=')[-1].split('%2C')
   end
 
   def format_errors(formats)
