@@ -44,7 +44,7 @@ class FormatParams
   end
 
   def parse(query)
-    query.split('=')[-1].split('%2C')
+    query.split('=')[-1].split('-')
   end
 
   def split_format
