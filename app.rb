@@ -13,7 +13,11 @@ class App
   end
 
   def headers
-    { 'Content-Type' => 'text/plain' }
+    { 
+      'Content-Type' => 'text/plain',
+      'X-Version' => Version::VERSION,
+      'X-Codename' => Version::CODENAME
+    }
   end
 
   def body
