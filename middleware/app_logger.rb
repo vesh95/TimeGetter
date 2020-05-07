@@ -1,13 +1,1 @@
-require "logger"
-
-class AppLogger
-  def initialize(app, **options)
-    @app = app
-    @logger = Logger.new(STDOUT)
-  end
-
-  def call(env)
-    @logger.info(env)
-    @app.call(env)
-  end
-end
+/annex/objects/SHA256E-s189--f4f1c7f03ff6b64741f56338d71c63a96730ac7410bf5ac8cda91a2fbd766f7c.rb

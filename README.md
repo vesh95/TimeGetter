@@ -1,18 +1,1 @@
-# TimeGetter
-Simple time getter rackup
-
-## How to use
-To get current date nodes send you request to /time?format=[your date nodes separated with '-']
-
-## For example
-Send your request to `/time?format=year-month-day`
-That's return plain/text MIME format value "2020-02-24"
-
-### Available formats
-
-- year
-- month
-- day
-- hour
-- minute
-- second
+/annex/objects/SHA256E-s343--d09889284c8b25dd1e8a3fbbf8169e24dfafa94150f79256fc788a8e199f9cbd.md

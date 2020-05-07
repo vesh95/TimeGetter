@@ -1,16 +1,1 @@
-GEM
-  remote: https://rubygems.org/
-  specs:
-    rack (2.2.2)
-
-PLATFORMS
-  ruby
-
-DEPENDENCIES
-  rack
-
-RUBY VERSION
-   ruby 2.6.5p114
-
-BUNDLED WITH
-   2.1.4
+/annex/objects/SHA256E-s156--2a6a3a4637eff6e8e301f50973810395b9d7221d1574eb0f36efa3f03d319ab4.lock

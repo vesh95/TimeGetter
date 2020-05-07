@@ -1,11 +1,1 @@
-require_relative "lib/format_params"
-
-require_relative "middleware/app_logger"
-require_relative "middleware/dispath"
-require_relative "app"
-require_relative "lib/version"
-
-# use AppLogger
-use Rack::Static, :urls => ["/public"]
-use Dispath
-run App.new
+/annex/objects/SHA256E-s251--e7771698e589235e58ef7b74a873b555b8b4c862098c13b3806f54d2f8bb9bb5.ru
